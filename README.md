@@ -28,7 +28,9 @@ To launch Cypress run the following:
 
     npm run cypress:open
 
-From there you can run the single test in this project, and notice that it fails.
+From there you can run the single test in this project, and notice that it fails as shown below:
+
+![Failing test](failed-test.png)
 
 ## Debugging the failure
 In Cypress, open the browser's Dev Tools and go to the Sources tab. In here open the JavaScript file created by Parcel
