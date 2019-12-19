@@ -4,8 +4,8 @@ This repository provides an example to reproduce this issue: https://github.com/
 Namely, version 3.5.1 of [cypress-file-upload](https://github.com/abramenal/cypress-file-upload) breaks drag/drop handling
 with Elm files.
 
-There is a separate branch, [cypress-file-upload-3.5.0](tree/cypress-file-upload-3.5.0), which downgrades from v3.5.1 to
-v3.5.0 of cypress-file-upload, and which _does_ work. The readme in that branch explains why.
+There is a separate branch, [cypress-file-upload-3.5.0](https://github.com/yonigibbs/elm-drag-drop-cypress/tree/cypress-file-upload-3.5.0),
+which downgrades from v3.5.1 to v3.5.0 of cypress-file-upload, and which _does_ work. The readme in that branch explains why.
 
 # Instructions
 ## Starting the app
