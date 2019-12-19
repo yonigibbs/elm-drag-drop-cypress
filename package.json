@@ -1,0 +1,26 @@
+{
+  "name": "elm-drag-drop-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "parcel": "parcel src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yonigibbs/elm-drag-drop-cypress.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yonigibbs/elm-drag-drop-cypress/issues"
+  },
+  "homepage": "https://github.com/yonigibbs/elm-drag-drop-cypress#readme",
+  "devDependencies": {
+    "elm-hot": "^1.1.4",
+    "node-elm-compiler": "^5.0.4",
+    "parcel-bundler": "^1.12.4"
+  }
+}
