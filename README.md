@@ -4,6 +4,9 @@ This repository provides an example to reproduce this issue: https://github.com/
 Namely, version 3.5.1 of [cypress-file-upload](https://github.com/abramenal/cypress-file-upload) breaks drag/drop handling
 with Elm files.
 
+There is a separate branch, [cypress-file-upload-3.5.0](tree/cypress-file-upload-3.5.0), which downgrades from v3.5.1 to
+v3.5.0 of cypress-file-upload, and which _does_ work. The readme in that branch explains why.
+
 # Instructions
 ## Starting the app
 Run the following to start the app:
@@ -14,9 +17,9 @@ This will launch [Parcel](https://parceljs.org/), which will transpile the Elm c
 web server to serve up the page at http://localhost:1234
 
 ## Manual execution
-When the page is loaded, simply drag/drop a file onto the drop-zone (a rectange with a dashed border) and notice that
-the name of the file is then shown under the "Upload Images" button. (There's a sample JPG you can use in
-[cypress/fixtures/sample.jpg]().)
+When the page is loaded, simply drag/drop an image file onto the drop-zone (a rectange with a dashed border) and notice
+that the name of the file is then shown under the "Upload Images" button. There's a sample JPG you can use here:
+[cypress/fixtures/sample.jpg](cypress/fixtures/sample.jpg).
 
 ## Cypress execution
 To launch Cypress run the following:
